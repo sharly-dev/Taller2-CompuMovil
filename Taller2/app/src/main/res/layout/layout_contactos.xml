@@ -7,16 +7,18 @@
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="0dp"
-        android:layout_height="30dp"
+        android:layout_height="wrap_content"
         android:layout_weight="0.15"
-        app:srcCompat="@android:drawable/btn_star_big_on" />
+        app:srcCompat="@android:drawable/btn_star_big_on"
+        android:layout_gravity="center"/>
 
     <TextView
         android:id="@+id/txtNum"
         android:layout_width="0dp"
-        android:layout_height="30dp"
+        android:layout_height="wrap_content"
         android:layout_weight="0.2"
         android:text="100"
+        android:layout_gravity="center"
         android:gravity="center"/>
 
     <TextView
@@ -24,5 +26,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="0.65"
-        android:text="TextView"/>
+        android:text="TextView"
+        android:layout_gravity="center"
+        android:paddingVertical="5dp"/>
 </LinearLayout>

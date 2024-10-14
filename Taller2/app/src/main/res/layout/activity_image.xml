@@ -7,4 +7,34 @@
     android:layout_height="match_parent"
     tools:context=".logica.ImageActivity">
 
+    <ImageButton
+        android:id="@+id/imagen"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        android:src="@drawable/camera"
+        app:layout_constraintBottom_toTopOf="@+id/btnGaleria"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="32dp"/>
+
+    <Button
+        android:id="@+id/btnGaleria"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Galería"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_margin="32dp" />
+
+    <Button
+        android:id="@+id/btnCamara"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Cámara"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="32dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
