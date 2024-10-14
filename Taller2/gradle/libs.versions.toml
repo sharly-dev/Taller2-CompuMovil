@@ -1,5 +1,6 @@
 [versions]
 agp = "8.6.0"
+githubOsmbonuspack = "6.6.0"
 kotlin = "1.9.0"
 coreKtx = "1.13.1"
 junit = "4.13.2"
@@ -26,6 +27,7 @@ androidx-activity = { group = "androidx.activity", name = "activity", version.re
 androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
 mkergall-osmbonuspack = { module = "com.github.MKergall:osmbonuspack", version.ref = "osmbonuspackVersion" }
 osmbonuspack = { module = "org.osmdroid:osmbonuspack", version.ref = "osmbonuspack" }
+osmbonuspack-v660 = { module = "com.github.MKergall:osmbonuspack", version.ref = "githubOsmbonuspack" }
 osmdroid-android = { module = "org.osmdroid:osmdroid-android", version.ref = "osmdroidAndroid" }
 play-services-maps = { group = "com.google.android.gms", name = "play-services-maps", version.ref = "playServicesMaps" }
 
