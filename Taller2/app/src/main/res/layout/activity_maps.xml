@@ -30,7 +30,8 @@
             android:inputType="text"
             android:hint="@string/buscar_ubicacion"
             android:completionThreshold="1"
-            android:layout_marginStart="10dp"/>
+            android:layout_marginStart="10dp"
+            android:textCursorDrawable="@drawable/cursor_color" />
 
         <ImageButton
             android:id="@+id/search_button"
