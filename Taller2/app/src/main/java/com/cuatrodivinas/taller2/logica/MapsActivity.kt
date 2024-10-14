@@ -29,7 +29,7 @@ import org.osmdroid.bonuspack.routing.Road
 import org.osmdroid.tileprovider.tilesource.TileSourceFactory
 import org.osmdroid.tileprovider.tilesource.XYTileSource
 import java.util.*
-private lateinit var lightSensorListener: SensorEventListener
+
 
 
 class MapsActivity : AppCompatActivity() {
