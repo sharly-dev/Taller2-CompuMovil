@@ -16,6 +16,18 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+    }
+
+    override fun onResume() {
+        super.onResume()
+        binding.btnContactos.setOnClickListener {
+            val intent = Intent(this, ContactosActivity::class.java)
+            startActivity(intent)
+        }
+        binding.btnCamara.setOnClickListener {
+            val intent = Intent(this, ImageActivity::class.java)
+            startActivity(intent)
+        }
         binding.btnMaps.setOnClickListener {
             val intent = Intent(this, MapsActivity::class.java)
             startActivity(intent)
