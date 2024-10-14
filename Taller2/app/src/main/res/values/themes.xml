@@ -1,8 +1,28 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
+<resources>
+    <!-- Tema claro -->
     <style name="Base.Theme.Taller2" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <!-- Colores principales -->
+        <item name="colorPrimary">@color/primaryColor</item> <!-- Amarillo -->
+        <item name="colorPrimaryVariant">@color/primaryColor</item> <!-- Amarillo sin cambio de variante -->
+        <item name="colorOnPrimary">@color/white</item> <!-- Texto sobre color primario -->
+
+        <!-- Colores secundarios -->
+        <item name="colorSecondary">@color/secondaryColor</item> <!-- Azul -->
+        <item name="colorOnSecondary">@color/white</item> <!-- Texto sobre color secundario -->
+
+        <!-- Colores terciarios y otros -->
+        <item name="colorTertiary">@color/tertiaryColor</item> <!-- Negro, terciario -->
+        <item name="colorError">@color/dangerColor</item> <!-- Rojo para errores -->
+
+        <!-- Fondo -->
+        <item name="android:colorBackground">@color/white</item> <!-- Fondo blanco -->
+
+        <!-- Barra de navegación y barra de estado -->
+
+        <item name="android:statusBarColor">@color/primaryColor</item>
+
+        <!-- Color del texto -->
+        <item name="android:textColor">@color/tertiaryColor</item>
     </style>
 
     <style name="Theme.Taller2" parent="Base.Theme.Taller2" />

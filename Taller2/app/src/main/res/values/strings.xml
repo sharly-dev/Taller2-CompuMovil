@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Taller2</string>
     <string name="title_activity_maps">MapsActivity</string>
+    <string name="map_button">map button</string>
+    <string name="ingrese_direccion">Ingrese dirección</string>
+    <string name="buscar">Buscar</string>
+    <string name="buscar_ubicacion">Buscar ubicación</string>
 </resources>
