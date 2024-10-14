@@ -163,8 +163,7 @@ class MapsActivity : AppCompatActivity() {
     private fun zoomToFitRoute(roadOverlay: Polyline) {
         val boundingBox = org.osmdroid.util.BoundingBox.fromGeoPoints(roadOverlay.points)
         // Establecer el padding para dejar espacio debajo del TextBox (en píxeles)
-        val topPadding = 300  // Ajusta este valor según el tamaño de tu TextBox
-        // Ajusta el zoom al bounding box pero luego disminuye el nivel de zoom en 1
+        val topPadding = 300
         binding.map.zoomToBoundingBox(boundingBox, true, topPadding) // Ajustar zoom para incluir todos los puntos
     }
 
