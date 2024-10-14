@@ -40,7 +40,7 @@ android {
 }
 
 dependencies {
-    implementation(libs.mkergall.osmbonuspack)
+    implementation(libs.osmbonuspack.v660)
     implementation(libs.osmdroid.android)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
