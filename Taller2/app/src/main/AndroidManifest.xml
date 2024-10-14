@@ -7,6 +7,7 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
 
 
     <application
@@ -19,7 +20,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Taller2"
         >
-
 
         <!--
              TODO: Before you run your application, you need a Google Maps API key.
